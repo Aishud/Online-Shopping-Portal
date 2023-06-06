@@ -1,0 +1,475 @@
+CRITICAL - 2023-06-02 03:13:36 --> Undefined variable $categoryData
+in APPPATH\Views\viewpdtsk.php on line 170.
+ 1 APPPATH\Views\viewpdtsk.php(170): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categoryData', 'C:\\xampp\\htdocs\\codeigniter\\app\\Views\\viewpdtsk.php', 170)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\codeigniter\\app\\Views\\viewpdtsk.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('viewpdtsk', [], true)
+ 5 APPPATH\Controllers\viewpdts.php(14): view('viewpdtsk')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\viewpdts->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\viewpdts))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-02 03:13:41 --> Undefined variable $userData
+in APPPATH\Views\adminhome.php on line 88.
+ 1 APPPATH\Views\adminhome.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userData', 'C:\\xampp\\htdocs\\codeigniter\\app\\Views\\adminhome.php', 88)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\codeigniter\\app\\Views\\adminhome.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('adminhome', [], true)
+ 5 APPPATH\Controllers\adminhome.php(14): view('adminhome')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\adminhome->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\adminhome))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-02 03:18:59 --> Undefined array key "id"
+in APPPATH\Views\addpdtstock.php on line 11.
+ 1 APPPATH\Views\addpdtstock.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\codeigniter\\app\\Views\\addpdtstock.php', 11)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\codeigniter\\app\\Views\\addpdtstock.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('addpdtstock', [], true)
+ 5 APPPATH\Controllers\addpdtstock.php(13): view('addpdtstock')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\addpdtstock->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\addpdtstock))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-02 03:19:07 --> Undefined array key "id"
+in APPPATH\Views\addpdtstock.php on line 11.
+ 1 APPPATH\Views\addpdtstock.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\codeigniter\\app\\Views\\addpdtstock.php', 11)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\codeigniter\\app\\Views\\addpdtstock.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('addpdtstock', [], true)
+ 5 APPPATH\Controllers\addpdtstock.php(13): view('addpdtstock')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\addpdtstock->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\addpdtstock))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-02 04:03:09 --> Cannot access offset of type string on string
+in APPPATH\Views\viewpdtsk.php on line 210.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('viewpdtsk', [], true)
+ 4 APPPATH\Controllers\viewpdts.php(14): view('viewpdtsk')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\viewpdts->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\viewpdts))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-02 04:05:27 --> Cannot access offset of type string on string
+in APPPATH\Views\viewpdtsk.php on line 210.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('viewpdtsk', [], true)
+ 4 APPPATH\Controllers\viewpdts.php(14): view('viewpdtsk')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\viewpdts->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\viewpdts))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-02 04:08:32 --> Cannot access offset of type string on string
+in APPPATH\Views\viewpdtsk.php on line 210.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('viewpdtsk', [], true)
+ 4 APPPATH\Controllers\viewpdts.php(14): view('viewpdtsk')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\viewpdts->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\viewpdts))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-02 04:27:27 --> Cannot access offset of type string on string
+in APPPATH\Views\viewusers.php on line 178.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('viewusers', [], true)
+ 4 APPPATH\Controllers\viewusers.php(13): view('viewusers')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\viewusers->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\viewusers))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-02 04:28:25 --> Cannot access offset of type string on string
+in APPPATH\Views\viewusers.php on line 178.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('viewusers', [], true)
+ 4 APPPATH\Controllers\viewusers.php(13): view('viewusers')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\viewusers->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\viewusers))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-02 07:05:38 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 226.
+ 1 SYSTEMPATH\CodeIgniter.php(226): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(190): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-06-02 07:05:38 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 226.
+ 1 SYSTEMPATH\CodeIgniter.php(226): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(190): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-06-02 07:07:15 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 226.
+ 1 SYSTEMPATH\CodeIgniter.php(226): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(190): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-06-02 07:07:27 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 226.
+ 1 SYSTEMPATH\CodeIgniter.php(226): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(190): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-06-02 07:07:43 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 226.
+ 1 SYSTEMPATH\CodeIgniter.php(226): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(190): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-06-02 07:08:11 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 226.
+ 1 SYSTEMPATH\CodeIgniter.php(226): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(190): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+ERROR - 2023-06-02 05:11:40 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'online_shopping_portal' in C:\xampp\htdocs\codeigniter\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 C:\xampp\htdocs\codeigniter\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'online_shopping...', 3306, '', 0)
+#1 C:\xampp\htdocs\codeigniter\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\codeigniter\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\codeigniter\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\codeigniter\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\codeigniter\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\codeigniter\app\Controllers\login.php(23): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(934): App\Controllers\login->login()
+#8 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\login))
+#9 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\codeigniter\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'online_shopping_portal' in C:\xampp\htdocs\codeigniter\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\codeigniter\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\codeigniter\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\codeigniter\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\codeigniter\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\codeigniter\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#5 C:\xampp\htdocs\codeigniter\app\Controllers\login.php(23): CodeIgniter\BaseModel->first()
+#6 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(934): App\Controllers\login->login()
+#7 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\login))
+#8 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\codeigniter\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-06-02 05:11:40 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'online_shopping_portal'
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `regdetails`
+WHERE `email` = :email:
+AND `regdetails`.`deleted_at` IS NULL
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\login.php(23): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\login->login()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\login))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-02 05:22:47 --> Undefined variable $userid
+in APPPATH\Views\viewpdtsk.php on line 185.
+ 1 APPPATH\Views\viewpdtsk.php(185): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userid', 'C:\\xampp\\htdocs\\codeigniter\\app\\Views\\viewpdtsk.php', 185)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\codeigniter\\app\\Views\\viewpdtsk.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('viewpdtsk', [], true)
+ 5 APPPATH\Controllers\viewpdts.php(14): view('viewpdtsk')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\viewpdts->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\viewpdts))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-02 05:22:51 --> Undefined variable $userid
+in APPPATH\Views\viewpdtsk.php on line 185.
+ 1 APPPATH\Views\viewpdtsk.php(185): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userid', 'C:\\xampp\\htdocs\\codeigniter\\app\\Views\\viewpdtsk.php', 185)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\codeigniter\\app\\Views\\viewpdtsk.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('viewpdtsk', [], true)
+ 5 APPPATH\Controllers\viewpdts.php(14): view('viewpdtsk')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\viewpdts->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\viewpdts))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-02 05:22:57 --> Undefined array key "id"
+in APPPATH\Views\addpdtstock.php on line 11.
+ 1 APPPATH\Views\addpdtstock.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\codeigniter\\app\\Views\\addpdtstock.php', 11)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\codeigniter\\app\\Views\\addpdtstock.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('addpdtstock', [], true)
+ 5 APPPATH\Controllers\addpdtstock.php(13): view('addpdtstock')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\addpdtstock->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\addpdtstock))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-02 05:22:59 --> Undefined variable $userid
+in APPPATH\Views\viewpdtsk.php on line 185.
+ 1 APPPATH\Views\viewpdtsk.php(185): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userid', 'C:\\xampp\\htdocs\\codeigniter\\app\\Views\\viewpdtsk.php', 185)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\codeigniter\\app\\Views\\viewpdtsk.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('viewpdtsk', [], true)
+ 5 APPPATH\Controllers\viewpdts.php(14): view('viewpdtsk')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\viewpdts->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\viewpdts))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-02 05:23:01 --> Undefined variable $userData
+in APPPATH\Views\adminhome.php on line 88.
+ 1 APPPATH\Views\adminhome.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userData', 'C:\\xampp\\htdocs\\codeigniter\\app\\Views\\adminhome.php', 88)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\codeigniter\\app\\Views\\adminhome.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('adminhome', [], true)
+ 5 APPPATH\Controllers\adminhome.php(14): view('adminhome')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\adminhome->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\adminhome))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-02 05:24:12 --> Undefined variable $userid
+in APPPATH\Views\viewpdtsk.php on line 185.
+ 1 APPPATH\Views\viewpdtsk.php(185): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userid', 'C:\\xampp\\htdocs\\codeigniter\\app\\Views\\viewpdtsk.php', 185)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\codeigniter\\app\\Views\\viewpdtsk.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('viewpdtsk', [], true)
+ 5 APPPATH\Controllers\viewpdts.php(14): view('viewpdtsk')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\viewpdts->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\viewpdts))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-02 05:26:52 --> Undefined array key "id"
+in APPPATH\Views\addpdtstock.php on line 11.
+ 1 APPPATH\Views\addpdtstock.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\codeigniter\\app\\Views\\addpdtstock.php', 11)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\codeigniter\\app\\Views\\addpdtstock.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('addpdtstock', [], true)
+ 5 APPPATH\Controllers\addpdtstock.php(13): view('addpdtstock')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\addpdtstock->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\addpdtstock))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-02 05:26:53 --> Undefined variable $userid
+in APPPATH\Views\viewpdtsk.php on line 185.
+ 1 APPPATH\Views\viewpdtsk.php(185): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userid', 'C:\\xampp\\htdocs\\codeigniter\\app\\Views\\viewpdtsk.php', 185)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\codeigniter\\app\\Views\\viewpdtsk.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('viewpdtsk', [], true)
+ 5 APPPATH\Controllers\viewpdts.php(14): view('viewpdtsk')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\viewpdts->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\viewpdts))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-02 05:26:54 --> Undefined variable $userData
+in APPPATH\Views\adminhome.php on line 88.
+ 1 APPPATH\Views\adminhome.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userData', 'C:\\xampp\\htdocs\\codeigniter\\app\\Views\\adminhome.php', 88)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\codeigniter\\app\\Views\\adminhome.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('adminhome', [], true)
+ 5 APPPATH\Controllers\adminhome.php(14): view('adminhome')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\adminhome->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\adminhome))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-02 05:41:00 --> Undefined array key "id"
+in APPPATH\Views\editpdt.php on line 11.
+ 1 APPPATH\Views\editpdt.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\codeigniter\\app\\Views\\editpdt.php', 11)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\codeigniter\\app\\Views\\editpdt.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('editpdt', [], true)
+ 5 APPPATH\Controllers\editpdt.php(13): view('editpdt')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\editpdt->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\editpdt))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-02 05:41:05 --> Undefined array key "id"
+in APPPATH\Views\addpdtstock.php on line 11.
+ 1 APPPATH\Views\addpdtstock.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\codeigniter\\app\\Views\\addpdtstock.php', 11)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\codeigniter\\app\\Views\\addpdtstock.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('addpdtstock', [], true)
+ 5 APPPATH\Controllers\addpdtstock.php(13): view('addpdtstock')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\addpdtstock->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\addpdtstock))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-02 06:39:26 --> Undefined array key "id"
+in APPPATH\Views\editpdt.php on line 11.
+ 1 APPPATH\Views\editpdt.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\codeigniter\\app\\Views\\editpdt.php', 11)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\codeigniter\\app\\Views\\editpdt.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('editpdt', [], true)
+ 5 APPPATH\Controllers\editpdt.php(13): view('editpdt')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\editpdt->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\editpdt))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-02 06:45:06 --> Cannot access offset of type string on string
+in APPPATH\Views\viewpdtsk.php on line 211.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('viewpdtsk', [], true)
+ 4 APPPATH\Controllers\viewpdts.php(14): view('viewpdtsk')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\viewpdts->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\viewpdts))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-02 06:57:10 --> Undefined array key "userid"
+in APPPATH\Controllers\edituserprofile.php on line 17.
+ 1 APPPATH\Controllers\edituserprofile.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "userid"', 'C:\\xampp\\htdocs\\codeigniter\\app\\Controllers\\edituserprofile.php', 17)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\edituserprofile->edituserprofile()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\edituserprofile))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-02 06:57:20 --> Cannot access offset of type string on string
+in APPPATH\Views\viewusers.php on line 178.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('viewusers', [], true)
+ 4 APPPATH\Controllers\viewusers.php(13): view('viewusers')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\viewusers->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\viewusers))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-02 06:57:29 --> Undefined array key "userid"
+in APPPATH\Controllers\edituserprofile.php on line 17.
+ 1 APPPATH\Controllers\edituserprofile.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "userid"', 'C:\\xampp\\htdocs\\codeigniter\\app\\Controllers\\edituserprofile.php', 17)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\edituserprofile->edituserprofile()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\edituserprofile))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-02 07:00:27 --> Cannot access offset of type string on string
+in APPPATH\Views\viewusers.php on line 178.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('viewusers', [], true)
+ 4 APPPATH\Controllers\viewusers.php(13): view('viewusers')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\viewusers->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\viewusers))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-02 07:02:08 --> Cannot access offset of type string on string
+in APPPATH\Views\viewusers.php on line 178.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('viewusers', [], true)
+ 4 APPPATH\Controllers\viewusers.php(13): view('viewusers')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\viewusers->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\viewusers))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-02 07:03:37 --> Undefined array key "userid"
+in APPPATH\Controllers\edituserprofile.php on line 17.
+ 1 APPPATH\Controllers\edituserprofile.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "userid"', 'C:\\xampp\\htdocs\\codeigniter\\app\\Controllers\\edituserprofile.php', 17)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\edituserprofile->edituserprofile()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\edituserprofile))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-02 07:05:12 --> Undefined array key "userid"
+in APPPATH\Controllers\edituserprofile.php on line 17.
+ 1 APPPATH\Controllers\edituserprofile.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "userid"', 'C:\\xampp\\htdocs\\codeigniter\\app\\Controllers\\edituserprofile.php', 17)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\edituserprofile->edituserprofile()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\edituserprofile))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-02 07:11:12 --> Undefined array key "id"
+in APPPATH\Views\deleteuser.php on line 10.
+ 1 APPPATH\Views\deleteuser.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\codeigniter\\app\\Views\\deleteuser.php', 10)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\codeigniter\\app\\Views\\deleteuser.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('deleteuser', [], true)
+ 5 APPPATH\Controllers\deleteuser.php(13): view('deleteuser')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\deleteuser->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\deleteuser))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-02 07:11:39 --> Cannot access offset of type string on string
+in APPPATH\Views\viewusers.php on line 178.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('viewusers', [], true)
+ 4 APPPATH\Controllers\viewusers.php(13): view('viewusers')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\viewusers->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\viewusers))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-02 07:25:00 --> Undefined variable $userModel
+in APPPATH\Controllers\deleteuser.php on line 39.
+ 1 APPPATH\Controllers\deleteuser.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userModel', 'C:\\xampp\\htdocs\\codeigniter\\app\\Controllers\\deleteuser.php', 39)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\deleteuser->canceldelete()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\deleteuser))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-02 07:25:40 --> Undefined variable $val
+in APPPATH\Controllers\deleteuser.php on line 41.
+ 1 APPPATH\Controllers\deleteuser.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $val', 'C:\\xampp\\htdocs\\codeigniter\\app\\Controllers\\deleteuser.php', 41)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\deleteuser->canceldelete()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\deleteuser))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-02 07:38:42 --> Cannot access offset of type string on string
+in APPPATH\Views\viewusers.php on line 178.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('viewusers', [], true)
+ 4 APPPATH\Controllers\viewusers.php(56): view('viewusers')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\viewusers->deleteuserp()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\viewusers))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-02 07:42:47 --> Cannot access offset of type string on string
+in APPPATH\Views\viewusers.php on line 178.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('viewusers', [], true)
+ 4 APPPATH\Controllers\viewusers.php(13): view('viewusers')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\viewusers->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\viewusers))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-02 07:42:56 --> Deletes are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH\Model.php on line 440.
+ 1 SYSTEMPATH\BaseModel.php(1065): CodeIgniter\Model->doDelete(null, false)
+ 2 APPPATH\Controllers\deleteuser.php(22): CodeIgniter\BaseModel->delete(null)
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\deleteuser->deleteuser()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\deleteuser))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-02 08:57:26 --> Undefined variable $userid
+in APPPATH\Views\userhome.php on line 104.
+ 1 APPPATH\Views\userhome.php(104): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userid', 'C:\\xampp\\htdocs\\codeigniter\\app\\Views\\userhome.php', 104)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\codeigniter\\app\\Views\\userhome.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('userhome', [], true)
+ 5 APPPATH\Controllers\userhome.php(14): view('userhome')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\userhome->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\userhome))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-02 09:27:25 --> Undefined variable $userid
+in APPPATH\Views\userprofile.php on line 18.
+ 1 APPPATH\Views\userprofile.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userid', 'C:\\xampp\\htdocs\\codeigniter\\app\\Views\\userprofile.php', 18)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\codeigniter\\app\\Views\\userprofile.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('userprofile', [], true)
+ 5 APPPATH\Controllers\userprofile.php(10): view('userprofile')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\userprofile->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\userprofile))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-02 09:29:10 --> Undefined variable $userData
+in APPPATH\Views\userhome.php on line 115.
+ 1 APPPATH\Views\userhome.php(115): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userData', 'C:\\xampp\\htdocs\\codeigniter\\app\\Views\\userhome.php', 115)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\codeigniter\\app\\Views\\userhome.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('userhome', [], true)
+ 5 APPPATH\Controllers\userhome.php(14): view('userhome')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\userhome->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\userhome))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-02 09:29:49 --> Undefined variable $userid
+in APPPATH\Views\userprofile.php on line 18.
+ 1 APPPATH\Views\userprofile.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userid', 'C:\\xampp\\htdocs\\codeigniter\\app\\Views\\userprofile.php', 18)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\codeigniter\\app\\Views\\userprofile.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('userprofile', [], true)
+ 5 APPPATH\Controllers\userprofile.php(10): view('userprofile')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\userprofile->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\userprofile))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
